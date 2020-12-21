@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 11 - Assignment 1 - PIAIC 50251</title>
+</head>
+<body>
+<h1>The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.</h1>
+<ul>
+    <li>a. Store a Celsius temperature into a variable.</li>
+    <li>b. Convert it to Fahrenheit & output “NoC is NoF”.</li>
+    <li>c. Now store a Fahrenheit temperature into a variable.</li>
+    <li>d. Convert it to Celsius & output “NoF is NoC”</li>
+</ul>
+<h1>Answer</h1>
+<script>
+    let celsius = 25;
+    let fahrenheit = 70;
+    const celsius_to_fahrenheit = (celsius * 9/5) + 32;
+    document.write(`<p>${celsius}<sup>o</sup>C is ${celsius_to_fahrenheit}<sup>o</sup>F.</p>`);
+    const fahrenheit_to_celsius = (fahrenheit - 32) * 5/9;
+    document.write(`<p>${fahrenheit}<sup>o</sup>F is ${fahrenheit_to_celsius}<sup>o</sup>C.</p>`);
+</script>
+</body>
+</html>
